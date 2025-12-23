@@ -31,14 +31,6 @@ class SingleLinkedList:
     
     def __len__(self):
         return self.size
-        # result = 0
-        # curr = self.head
-        
-        # while curr:
-        #     result += 1
-        #     curr = curr.next 
-            
-        # return result
     
     def add(self, value):
         new_node = Node(value)
